@@ -8,9 +8,8 @@ $username = 'if0_37029792';
 $password = 'KZ6mSOtNHOgqF';
 
 try {
-    $db = new PDO('sqlite:../db/database.sqlite');
-    // $dsn = "mysql:host=$host;dbname=$dbname;charset=utf8";
-    // $pdo = new PDO($dsn, $username, $password);
+    $dsn = "mysql:host=$host;dbname=$dbname;charset=utf8";
+    $db = new PDO($dsn, $username, $password);
 
     $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
