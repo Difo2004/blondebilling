@@ -8,15 +8,21 @@ body {
     color: #ffffff;
 }
 
-
-body.bg-dark {
-  /* display: grid; */
-  /* min-height: 100vh; */
-  /* grid-template-rows: auto 1fr ; */
-}
-
 .LogOut {
   padding: 20px;
 }
+
+*{margin:0;padding:0;box-sizing:border-box}
+.iniciar{background:#bdc3c7;display:grid;padding:30px;grid-template-columns:1fr;grid-template-rows:auto 1fr;align-self:center;gap:20px}
+.iniciar #sesion{display:grid;grid-template-rows:1fr repeat(2, 1fr) .5fr;place-self:center;background:#353b48;border-radius:10px;padding:20px;width:400px;height:350px}
+.iniciar #sesion h2{text-align:center;font-size:28px;font-family:"Open Sans",sans-serif;color:#f5f6fa}
+.iniciar #sesion div{display:flex;flex-direction:column}
+.iniciar #sesion div input{padding:10px;outline:none;border:none;border-radius:5px}
+.iniciar #sesion div label{font-family:"Roboto",sans-serif;color:#f5f6fa;font-size:18px}
+.iniciar #sesion button{font-size:18px;width:60%;justify-self:center;border:none;padding:0px;border-radius:5px;cursor:pointer;background:#44bd32;color:#f5f6fa}
+.iniciar #sesion button:hover{background:#4cd137}
+
+
+
 
 /* -------------------------------------------------------------------------------------------------------- */
