@@ -1,0 +1,22 @@
+body {
+    /* background-color: #343a40; */
+    color: #ffffff;
+}
+
+.table-dark.table-striped > tbody > tr:nth-of-type(odd) {
+    --bs-table-accent-bg: #454d55;
+    color: #ffffff;
+}
+
+
+body.bg-dark {
+  /* display: grid; */
+  /* min-height: 100vh; */
+  /* grid-template-rows: auto 1fr ; */
+}
+
+.LogOut {
+  padding: 20px;
+}
+
+/* -------------------------------------------------------------------------------------------------------- */
